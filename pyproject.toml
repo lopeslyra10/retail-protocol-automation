@@ -12,7 +12,7 @@ license = { text = "MIT" }
 authors = [{ name = "Augusto Lopes Lyra" }]
 dependencies = [
   "pydantic>=2.7,<3",
-  "reportlab>=4.2,<5",
+  "reportlab>=4.2,<6",
   "streamlit>=1.63,<2",
 ]
 
