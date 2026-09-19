@@ -1,0 +1,35 @@
+name: Repository history bootstrap
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  publish-history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository state
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Publish staged history when present
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! -f portfolio.bundle.b64 ]]; then
+            echo "No staged history bundle found; nothing to publish."
+            exit 0
+          fi
+
+          base64 -d portfolio.bundle.b64 > "$RUNNER_TEMP/portfolio.bundle"
+          git bundle verify "$RUNNER_TEMP/portfolio.bundle"
+          git fetch "$RUNNER_TEMP/portfolio.bundle" main:refs/remotes/portfolio/main
+          test "$(git rev-list --count refs/remotes/portfolio/main)" -eq 4
+          git checkout --detach refs/remotes/portfolio/main
+          git push --force-with-lease origin HEAD:main
