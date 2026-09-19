@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unidade_central",
+    "order": 1,
+    "name": "Unidade Central",
+    "aliases": ["Loja Central", "Central"],
+    "address": "AVENIDA EXEMPLO, 100 - CENTRO",
+    "city": "São Paulo",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  },
+  {
+    "id": "unidade_norte",
+    "order": 2,
+    "name": "Unidade Norte",
+    "aliases": ["Loja Norte", "Norte"],
+    "address": "RUA DEMONSTRAÇÃO, 210 - ZONA NORTE",
+    "city": "São Paulo",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  },
+  {
+    "id": "unidade_sul",
+    "order": 3,
+    "name": "Unidade Sul",
+    "aliases": ["Loja Sul", "Sul"],
+    "address": "ALAMEDA MODELO, 320 - ZONA SUL",
+    "city": "São Paulo",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  },
+  {
+    "id": "unidade_leste",
+    "order": 4,
+    "name": "Unidade Leste",
+    "aliases": ["Loja Leste", "Leste"],
+    "address": "RUA PROTÓTIPO, 430 - ZONA LESTE",
+    "city": "São Paulo",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  },
+  {
+    "id": "unidade_oeste",
+    "order": 5,
+    "name": "Unidade Oeste",
+    "aliases": ["Loja Oeste", "Oeste"],
+    "address": "AVENIDA REFERÊNCIA, 540 - ZONA OESTE",
+    "city": "São Paulo",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  },
+  {
+    "id": "unidade_jardins",
+    "order": 6,
+    "name": "Unidade Jardins",
+    "aliases": ["Loja Jardins", "Jardins"],
+    "address": "ALAMEDA PORTFÓLIO, 650 - JARDINS",
+    "city": "São Paulo",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  },
+  {
+    "id": "unidade_paulista",
+    "order": 7,
+    "name": "Unidade Paulista",
+    "aliases": ["Loja Paulista", "Paulista"],
+    "address": "AVENIDA CENÁRIO, 760 - BELA VISTA",
+    "city": "São Paulo",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  },
+  {
+    "id": "unidade_pinheiros",
+    "order": 8,
+    "name": "Unidade Pinheiros",
+    "aliases": ["Loja Pinheiros", "Pinheiros"],
+    "address": "RUA AMOSTRA, 870 - PINHEIROS",
+    "city": "São Paulo",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  },
+  {
+    "id": "unidade_moema",
+    "order": 9,
+    "name": "Unidade Moema",
+    "aliases": ["Loja Moema", "Moema"],
+    "address": "ALAMEDA TESTE, 980 - MOEMA",
+    "city": "São Paulo",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  },
+  {
+    "id": "unidade_santana",
+    "order": 10,
+    "name": "Unidade Santana",
+    "aliases": ["Loja Santana", "Santana"],
+    "address": "RUA COMPONENTE, 1090 - SANTANA",
+    "city": "São Paulo",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  },
+  {
+    "id": "unidade_vila_nova",
+    "order": 11,
+    "name": "Unidade Vila Nova",
+    "aliases": ["Loja Vila Nova", "Vila Nova"],
+    "address": "RUA LABORATÓRIO, 1200 - VILA NOVA",
+    "city": "São Paulo",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  },
+  {
+    "id": "unidade_campinas",
+    "order": 12,
+    "name": "Unidade Campinas",
+    "aliases": ["Loja Campinas", "Campinas"],
+    "address": "AVENIDA SANDBOX, 1310 - CENTRO",
+    "city": "Campinas",
+    "state": "SP",
+    "default_quantity": 100,
+    "active": true
+  }
+]

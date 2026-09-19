@@ -1,0 +1,62 @@
+[
+  {
+    "id": "campanha_semanal_padrao",
+    "name": "Campanha semanal — padrão",
+    "category": "Campanha semanal",
+    "quantities": {
+      "unidade_central": 300,
+      "unidade_norte": 200,
+      "unidade_sul": 250,
+      "unidade_leste": 180,
+      "unidade_oeste": 220,
+      "unidade_jardins": 300,
+      "unidade_paulista": 300,
+      "unidade_pinheiros": 250,
+      "unidade_moema": 250,
+      "unidade_santana": 180,
+      "unidade_vila_nova": 150,
+      "unidade_campinas": 200
+    },
+    "description": "Perfil sintético para demonstrar uma distribuição completa.",
+    "created_at": "2026-01-10T09:00:00",
+    "active": true
+  },
+  {
+    "id": "campanha_alto_fluxo",
+    "name": "Campanha semanal — alto fluxo",
+    "category": "Campanha semanal",
+    "quantities": {
+      "unidade_central": 500,
+      "unidade_norte": 250,
+      "unidade_sul": 300,
+      "unidade_leste": 200,
+      "unidade_oeste": 250,
+      "unidade_jardins": 500,
+      "unidade_paulista": 500,
+      "unidade_pinheiros": 400,
+      "unidade_moema": 400,
+      "unidade_santana": 200,
+      "unidade_vila_nova": 200,
+      "unidade_campinas": 250
+    },
+    "description": "Perfil sintético com reforço de quantidade em unidades de maior movimento.",
+    "created_at": "2026-02-05T09:00:00",
+    "active": true
+  },
+  {
+    "id": "flyer_lancamento_parcial",
+    "name": "Flyer de lançamento — lista parcial",
+    "category": "Flyer",
+    "quantities": {
+      "unidade_central": 1000,
+      "unidade_jardins": 800,
+      "unidade_paulista": 800,
+      "unidade_pinheiros": 600,
+      "unidade_moema": 600,
+      "unidade_campinas": 500
+    },
+    "description": "Perfil sintético que demonstra uma ação destinada a apenas parte das unidades.",
+    "created_at": "2026-03-12T09:00:00",
+    "active": true
+  }
+]
