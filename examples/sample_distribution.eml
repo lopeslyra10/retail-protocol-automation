@@ -1,0 +1,53 @@
+From: Operação Demo <operations@example.com>
+To: Protocolos Demo <protocols@example.com>
+Date: Tue, 15 Sep 2026 10:00:00 -0300
+Subject: OS 104582 - Material Promocional 15-09 a 21-09
+Message-ID: <sample-distribution-104582@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="sample-distribution-boundary"
+
+--sample-distribution-boundary
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Material: Material Promocional 15-09 a 21-09
+OS: 104582
+Quantidade total: 1.050 unidades.
+
+Loja
+Endereço
+Quantidade
+Unidade Central
+AVENIDA EXEMPLO, 100 - CENTRO
+500
+Unidade Jardins
+ALAMEDA PORTFÓLIO, 650 - JARDINS
+300
+Unidade Paulista
+AVENIDA CENÁRIO, 760 - BELA VISTA
+250
+
+--sample-distribution-boundary
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<!doctype html>
+<html lang="pt-BR">
+<body>
+  <p><strong>Material:</strong> Material Promocional 15-09 a 21-09<br>
+  <strong>OS:</strong> 104582<br>
+  <strong>Quantidade total:</strong> 1.050 unidades.</p>
+  <table border="1" cellspacing="0" cellpadding="5">
+    <thead>
+      <tr><th>Loja</th><th>Endereço</th><th>Quantidade</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Unidade Central</td><td>AVENIDA EXEMPLO, 100 - CENTRO</td><td>500</td></tr>
+      <tr><td>Unidade Jardins</td><td>ALAMEDA PORTFÓLIO, 650 - JARDINS</td><td>300</td></tr>
+      <tr><td>Unidade Paulista</td><td>AVENIDA CENÁRIO, 760 - BELA VISTA</td><td>250</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
+--sample-distribution-boundary--
